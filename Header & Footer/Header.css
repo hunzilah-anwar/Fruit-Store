@@ -1,0 +1,88 @@
+/* Header.css */
+
+header {
+    background-color: white;
+    padding: 0px 20px 30px 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container-topbar{
+    border-radius: 230px 100px;
+    width: 1200px;
+    color: white;
+    background-color: #81C408;
+    padding: 15px 5px 15px 20px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.container-topbar p{
+    vertical-align: top;
+    display: inline-block;
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+.container-topbar p a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.container-topbar p a:hover{
+    color: #F3BA0E;
+}
+.container-topbar i{
+    color: #F3BA0E;
+    margin-right: 15px;
+    margin-left: 65px;
+}
+.container-navbar{
+    position: sticky;
+}
+header h1 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+    color: #81C408;
+    display: inline-block;
+    vertical-align: top;
+}
+#nav-links{
+    font-family: "Raleway", sans-serif;
+    margin-top: 15px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+#nav-links li {
+    display: inline;
+    vertical-align: top;
+    list-style: none;
+}
+#nav-links a {
+    color: grey;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.2s;
+}
+#nav-links a:hover {
+    color: #81C408;
+}
+.container-navbar i{
+    color: #81C408;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.container-navbar i:hover{
+    color: #679D06;
+}
+/* .container-navbar span{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 2px 5px;
+    transform: translate(-50px, -50%);
+} */
